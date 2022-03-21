@@ -1,16 +1,13 @@
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
-
-let notes = require('../db/db.json');
 const express = require('express');
 const router = express.Router();
 
+let notes = require('../db/db.json');
 
-// Middleware
 router.use(express.json());
 
 router.get('/', (req, res) => {
-
 });
 
 router
