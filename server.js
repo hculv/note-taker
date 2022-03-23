@@ -14,5 +14,5 @@ app.get('/*', (req, res) => {
 });
 
 app.listen(PORT, () => 
-console.log(`Application live on ${PORT}`)
+console.log(`Application is live on ${PORT}`)
 );
