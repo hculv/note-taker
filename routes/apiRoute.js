@@ -1,4 +1,4 @@
-// UPDATE
+
 
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
@@ -10,7 +10,7 @@ const express = require('express');
 const router = express.Router();
 
 
-// Middleware
+
 router.use(express.json());
 router.get('/', (req, res) => {
 });
